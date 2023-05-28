@@ -32,21 +32,29 @@ const Signup = () => {
                     <label htmlFor='' className='block'>
                         Pendidikan Terakhir
                     </label>
-                    <input type='radio' id='smp' className='mr-2' />
-                    <label htmlFor='smp' className='mr-2'>
+                    <input type='radio' id='smp' name='education' className='mr-2 my-2' />
+                    <label htmlFor='smp' className='mr-2 my-2'>
                         SMP
                     </label>
-                    <input type='radio' id='smp' className='mr-2' />
-                    <label htmlFor='smp' className='mr-2'>
+                    <input type='radio' id='smp' name='education' className='mr-2 my-2' />
+                    <label htmlFor='smp' className='mr-2 my-2'>
                         SMP
                     </label>
-                    <input type='radio' id='sma' className='mr-2' />
-                    <label htmlFor='sma' className='mr-2'>
+                    <input type='radio' id='sma' name='education' className='mr-2 my-2' />
+                    <label htmlFor='sma' className='mr-2 my-2'>
                         SMA
                     </label>
-                    <input type='radio' id='s1' className='mr-2' />
-                    <label htmlFor='smp' className='mr-2'>
+                    <input type='radio' id='s1' name='education' className='mr-2 my-2' />
+                    <label htmlFor='s1' className='mr-2 my-2'>
                         S1
+                    </label>
+                    <input type='radio' id='s2' name='education' className='mr-2 my-2' />
+                    <label htmlFor='s2' className='mr-2 my-2'>
+                        S2
+                    </label>
+                    <input type='radio' id='s3' name='education' className='mr-2 my-2' />
+                    <label htmlFor='s3' className='mr-2 my-2'>
+                        S3
                     </label>
                     <br />
                     <button className='bg-sky-800 py-2 px-5 mt-2 rounded-md drop-shadow-sm text-white'>
